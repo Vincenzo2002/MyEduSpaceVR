@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6e1dda7a518465db64ee931f197835, type: 3}
+  m_Name: Sedia
+  m_EditorClassIdentifier: Assembly-CSharp::CatalogItem
+  id: sedia1
+  displayName: Sedia
+  icon: {fileID: -1809286987886040909, guid: 201f7a4754b63473887eb21554028b4f, type: 3}
+  prefab: {fileID: 8574840732983792412, guid: 589f2058cf8464e9699b4229920de2af, type: 3}

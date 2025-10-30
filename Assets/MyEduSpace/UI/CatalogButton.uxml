@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; bottom: auto; border-top-width: 0;">
+        <ui:Button text="Generale" name="btnGenerale" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(34, 150, 243); color: rgb(255, 255, 255);" />
+        <ui:Button text="Banchi" name="btnBanchi" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(34, 150, 243); color: rgb(255, 255, 255); border-top-width: 0; margin-top: 10px;" />
+        <ui:Button text="Lavagne" name="btnLavagne" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(34, 150, 243); color: rgb(255, 255, 255); margin-top: 10px;" />
+        <ui:Button text="Sedie" name="btnSedie" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(34, 150, 243); color: rgb(255, 255, 255); margin-top: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

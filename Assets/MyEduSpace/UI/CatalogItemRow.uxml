@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MyEduSpace/UI/Styles/CatalogItemRow.uss?fileID=7433441132597879392&amp;guid=7c35380f6461348d89d6caf6d0bf3e68&amp;type=3#CatalogItemRow" />
+    <ui:VisualElement name="row" style="flex-grow: 1; flex-direction: row; height: 100px; min-height: 100px; max-height: 100px;">
+        <ui:VisualElement name="icon" style="flex-grow: 1; width: 100px; height: 100px; max-height: 100px; max-width: 100px; min-width: 100px; min-height: 100px; background-color: rgba(229, 229, 229, 0.45);" />
+        <ui:Label name="nameLabel" />
+        <ui:Button text="+" name="spawnBtn" style="height: 100px; min-height: 100px; max-height: 100px; width: 100px; min-width: 100px; max-width: 100px; position: absolute; right: 0; background-color: rgb(46, 125, 50);" />
+    </ui:VisualElement>
+</ui:UXML>

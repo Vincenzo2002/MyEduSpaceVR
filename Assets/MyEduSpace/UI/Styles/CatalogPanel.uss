@@ -1,0 +1,45 @@
+/* Pannello principale */
+#catalogPanel {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 400px;                       /* larghezza fissa */
+    height: 600px;                      /* altezza fissa */
+    padding: 12px;
+    margin: 8px;
+    border-radius: 12px;
+    background-color: rgba(20, 20, 20, 0.95); /* sfondo scuro semi-trasparente */
+    border: 2px solid #333;
+}
+
+/* Titolo */
+#title {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    unity-text-align: middle-center; /* centrato */
+    margin-bottom: 10px;
+}
+
+/* Scroll view */
+#catalogScroll {
+    flex-grow: 1;              /* prende tutto lo spazio disponibile */
+    background-color: #1a1a1a; /* leggermente più chiaro del pannello */
+    border-radius: 8px;
+    padding: 6px;
+    overflow-y: scroll;
+}
+
+/* Scrollbar verticale */
+#catalogScroll::-unity-scrollbar {
+    width: 8px;
+}
+
+#catalogScroll::-unity-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+#catalogScroll::-unity-scrollbar-thumb:hover {
+    background-color: #777;
+}

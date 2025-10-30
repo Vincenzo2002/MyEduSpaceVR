@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MyEduSpace/UI/Styles/CatalogPanel.uss?fileID=7433441132597879392&amp;guid=3e8521f567a7148fbbaf8a2f4dc80141&amp;type=3#CatalogPanel" />
+    <ui:Label text="Catalogo" name="title" style="-unity-text-align: upper-center; font-size: 30px;" />
+    <ui:ScrollView name="catalogScroll" style="color: rgb(27, 27, 27); background-color: rgba(28, 28, 28, 0.45);" />
+</ui:UXML>

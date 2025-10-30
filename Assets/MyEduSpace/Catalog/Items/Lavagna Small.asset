@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6e1dda7a518465db64ee931f197835, type: 3}
+  m_Name: Lavagna Small
+  m_EditorClassIdentifier: Assembly-CSharp::CatalogItem
+  id: lavagna2
+  displayName: Lavagna Small
+  icon: {fileID: -1809286987886040909, guid: 0af8daeb9f52741338f4bca58b16624d, type: 3}
+  prefab: {fileID: 7870877314891472734, guid: 042c6c3072d0f460289005390912c5e1, type: 3}
